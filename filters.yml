@@ -1,0 +1,34 @@
+# filters.yml (broader allow)
+allow:
+  - "machine learning"
+  - "ml"
+  - "ai"
+  - "deep learning"
+  - "neural"
+  - "embedding"
+  - "transformer"
+  - "prediction"
+  - "forecasting"
+  - "classification"
+  - "regression"
+  - "uncertainty"
+  - "bayesian"
+  - "conformal"
+  - "supervised"
+  - "unsupervised"
+  - "reinforcement learning"
+  # # multilingual (optional)
+  # - "pembelajaran mesin"          # Indonesian
+  # - "aprendizaje automático"      # Spanish
+  # - "apprentissage automatique"   # French
+  # - "apprendimento automatico"    # Italian
+  # - "машинное обучение"           # Russian
+deny:
+  - "quantum"
+  - "astrophysics"
+  - "cosmology"
+  - "particle physics"
+  - "galaxy"
+  - "spectroscopy"
+  - "string theory"
+  - "lattice qcd"
