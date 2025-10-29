@@ -1,34 +1,27 @@
-# filters.yml (broader allow)
+# filters_relaxed.yml - Very permissive, only blocks obvious non-ML topics
+
 allow:
-  - "machine learning"
-  - "ml"
-  - "ai"
-  - "deep learning"
+  # Minimal list - catches most ML papers
+  - "learning"
+  - "model"
+  - "algorithm"
   - "neural"
-  - "embedding"
-  - "transformer"
+  - "data"
   - "prediction"
-  - "forecasting"
   - "classification"
-  - "regression"
-  - "uncertainty"
-  - "bayesian"
-  - "conformal"
-  - "supervised"
-  - "unsupervised"
-  - "reinforcement learning"
-  # # multilingual (optional)
-  # - "pembelajaran mesin"          # Indonesian
-  # - "aprendizaje automático"      # Spanish
-  # - "apprentissage automatique"   # French
-  # - "apprendimento automatico"    # Italian
-  # - "машинное обучение"           # Russian
+  - "detection"
+  - "optimization"
+  - "evaluation"
+
 deny:
-  - "quantum"
-  - "astrophysics"
-  - "cosmology"
-  - "particle physics"
-  - "galaxy"
-  - "spectroscopy"
+  # Only block very specific non-ML topics
+  - "quantum field theory"
   - "string theory"
-  - "lattice qcd"
+  - "black hole"
+  - "dark matter"
+  - "supernova"
+  - "galaxy cluster"
+  - "cosmic ray"
+  - "gravitational wave"
+  - "organic synthesis"
+  - "gene expression"
